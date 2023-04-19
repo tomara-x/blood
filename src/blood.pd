@@ -59,7 +59,10 @@
 #X array witch 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 419 359 graph;
-#N canvas 0 50 630 550 the-void 0;
-#X text 269 238 blink;
+#N canvas 0 50 630 550 the-void 1;
+#N canvas 0 50 630 550 the-deep-void 1;
+#X text 218 161 blink;
+#X restore 9 519 pd the-deep-void;
+#X text 119 188 window shape \, overlap \, number of bins as a variable (that also controls the array lengths) \, that kinda stuuf here;
 #X restore 9 519 pd the-void;
 #X restore 9 519 pd void;
