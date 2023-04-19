@@ -1,7 +1,8 @@
 #N canvas 827 239 630 550 12;
 #N canvas 0 50 450 250 (subpatch) 1;
+#X obj -19 -19 cnv 15 669 589 empty empty empty 20 12 0 14 #383838 #ffffff 0;
 #X obj 340 -181 note 0 840 Inter empty 0 255 172 171 0 25 25 25 0 0 /;
-#X obj 393 -181 note 0 840 Inter empty 0 91 206 250 0 25 25 25 0 0 /;
+#X obj 392 -181 note 0 840 Inter empty 0 91 206 250 0 25 25 25 0 0 /;
 #X obj 181 -181 note 0 840 Inter empty 0 91 206 250 0 25 25 25 0 0 /;
 #X obj 286 -181 note 0 840 Inter empty 0 0 0 0 0 25 25 25 0 0 /;
 #X obj 233 -181 note 0 840 Inter empty 0 255 172 171 0 25 25 25 0 0 /;
@@ -59,8 +60,8 @@
 #X array witch 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 419 359 graph;
-#N canvas 0 50 630 550 the-void 1;
-#N canvas 0 50 630 550 the-deep-void 1;
+#N canvas 0 50 630 550 the-void 0;
+#N canvas 0 50 630 550 the-deep-void 0;
 #X text 218 161 blink;
 #X restore 9 519 pd the-deep-void;
 #X text 119 188 window shape \, overlap \, number of bins as a variable (that also controls the array lengths) \, that kinda stuuf here;
