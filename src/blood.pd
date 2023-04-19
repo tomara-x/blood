@@ -21,6 +21,7 @@
 #X text 459 8 magic;
 #X text 9 258 gay;
 #X text 9 418 doll;
+#X obj 659 139 cnv 15 41 41 empty empty 💧 -115 290 0 82 #575757 #ff0000 0;
 #X coords 0 1 100 -1 631 551 1 0 0;
 #X restore -1 -1 graph;
 #N canvas 0 50 630 550 void 1;
