@@ -1,0 +1,15 @@
+#N canvas 827 239 630 550 12;
+#X obj 99 39 cnv 15 281 81 empty empty empty 20 12 0 14 #191919 #ffffff 0;
+#X obj 119 39 note 0 80 Inter empty 0 255 0 23 0 25 25 25 0 0 G;
+#X obj 159 39 note 0 80 Inter empty 0 255 72 0 0 25 25 25 0 0 E;
+#X obj 189 39 note 0 80 Inter empty 0 255 162 0 0 25 25 25 0 0 N;
+#X obj 229 39 note 0 80 Inter empty 0 161 255 0 0 25 25 25 0 0 D;
+#X obj 269 39 note 0 80 Inter empty 0 0 174 255 0 25 25 25 0 0 E;
+#X obj 299 39 note 0 80 Inter empty 0 136 0 255 0 25 25 25 0 0 R;
+#N canvas 0 50 450 250 (subpatch) 1;
+#X obj -1 -1 cnv 15 171 81 empty empty empty 20 12 0 14 #191919 #ffffff 0;
+#X obj 19 -1 note 61 80 Inter empty 0 91 206 250 0 25 25 25 0 0 G;
+#X obj 59 -1 note 0 80 Inter empty 0 255 172 171 0 25 25 25 0 0 A;
+#X obj 89 -1 note 0 80 Inter empty 0 255 255 255 0 25 25 25 0 0 Y;
+#X coords 0 1 100 -1 169 79 1 0 0;
+#X restore 99 129 graph;
