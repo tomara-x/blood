@@ -42,7 +42,7 @@
 #X coords 0 1 99 -1 200 140 1;
 #X restore 9 199 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array gay-fuck 100 float 0;
+#X array gaysex 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 214 199 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -50,11 +50,11 @@
 #X coords 0 1 99 -1 200 140 1;
 #X restore 419 199 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array gender-magic 100 float 0;
+#X array insight 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 9 359 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
-#X array gay-magic 100 float 0;
+#X array enchantment 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 214 359 graph;
 #N canvas 0 50 450 250 (subpatch) 0;
@@ -62,9 +62,9 @@
 #X coords 0 1 99 -1 200 140 1;
 #X restore 419 359 graph;
 #N canvas 0 50 630 550 the-void 1;
-#N canvas 0 50 630 550 the-deep-void 1;
+#N canvas 0 50 630 550 the-deep-void 0;
 #X text 279 228 blink;
-#N canvas 0 50 630 550 light 1;
+#N canvas 0 50 630 550 light 0;
 #X restore 9 519 pd light;
 #X restore 9 519 pd the-deep-void;
 #X text 119 188 window shape \, overlap \, number of bins as a variable (that also controls the array lengths) \, that kinda stuuf here;
