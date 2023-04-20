@@ -8,13 +8,13 @@
 #X obj 233 -181 note 0 840 Inter empty 0 255 172 171 0 25 25 25 0 0 /;
 #X obj 79 39 knob 151 0 127 0 0 empty empty #191919 #ff003f 0 0 13 0 0 360 0;
 #X obj 239 39 knob 151 0 127 0 0 empty empty #191919 #00beff 0 0 0 0 1 336 0;
-#X obj 399 39 knob 151 0 127 0 0 empty empty #191919 #ffb900 0 0 14 0 1 287 0;
+#X obj 399 39 knob 151 0 127 0 0 empty empty #191919 #ffb900 0 0 14 0 1 290 0;
 #X obj 79 199 knob 151 0 127 0 0 empty empty #191919 #a1ff00 0 0 18 0 1 270 0;
 #X obj 239 199 knob 151 0 127 0 0 empty empty #191919 #ff0052 0 0 6 0 1 270 0;
 #X obj 399 199 knob 151 0 127 0 0 empty empty #191919 #7600ff 0 0 6 0 1 315 0;
 #X obj 79 359 knob 151 0 127 0 0 empty empty #191919 #00ff56 0 0 104 0 1 270 11;
 #X obj 239 359 knob 151 0 127 0 0 empty empty #191919 #ff4900 0 0 12 0 1 182 0;
-#X obj 399 359 knob 151 0 127 0 0 empty empty #191919 #00ffc0 0 0 5 1 1 270 0;
+#X obj 399 359 knob 151 0 127 0 0 empty empty #191919 #00ffc0 0 0 5 0 1 270 0;
 #X text 129 8 gender;
 #X text 9 258 fuck;
 #X text 9 418 magic;
@@ -22,6 +22,9 @@
 #X text 469 8 doll;
 #X obj 659 139 cnv 15 41 41 empty empty 💧 -115 290 0 82 #575757 #ff0000 0;
 #X text 9 98 amount;
+#X obj 659 179 cnv 15 41 41 empty empty 🦋 -223 -66 0 61 #575757 #191919 0;
+#X obj 659 219 cnv 15 41 41 empty empty 🧿 -240 214 0 98 #575757 #191919 0;
+#X obj 659 99 cnv 15 41 41 empty empty 💖 -229 179 0 77 #575757 #191919 0;
 #X coords 0 1 100 -1 631 551 1 0 0;
 #X restore -1 -1 graph;
 #N canvas 0 50 630 550 void 1;
