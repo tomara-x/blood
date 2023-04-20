@@ -23,7 +23,7 @@
 #X obj 659 39 cnv 15 21 21 empty empty 💧 -549 75 0 82 #575757 #191919 0;
 #X text 9 98 amount;
 #X obj 659 289 cnv 15 21 21 empty empty 🦋 -223 -179 0 61 #575757 #191919 0;
-#X obj 659 349 cnv 15 21 21 empty empty 🧿 -238 82 0 95 #575757 #191919 0;
+#X obj 659 349 cnv 15 21 21 empty empty 🧿 -238 83 0 97 #575757 #191919 0;
 #X obj 659 319 cnv 15 21 21 empty empty 💖 -228 -41 0 77 #575757 #191919 0;
 #X obj 659 69 cnv 15 21 21 empty empty 💧 -549 208 0 82 #575757 #191919 0;
 #X obj 659 99 cnv 15 21 21 empty empty 💧 -549 335 0 82 #575757 #191919 0;
@@ -69,10 +69,10 @@
 #X array witch 100 float 0;
 #X coords 0 1 99 -1 200 140 1;
 #X restore 419 359 graph;
-#N canvas 0 50 630 550 voidvoid 1;
+#N canvas 0 50 630 550 voidvoid 0;
 #X text 119 188 window shape \, overlap \, number of bins as a variable (that also controls the array lengths) \, that kinda stuuf here;
-#N canvas 0 50 630 550 voidvoidvoid 1;
-#N canvas 0 50 630 550 light 1;
+#N canvas 0 50 630 550 voidvoidvoid 0;
+#N canvas 0 50 630 550 light 0;
 #X text 289 248 blink;
 #X restore 9 519 pd light;
 #X restore 9 519 pd voidvoidvoid;
