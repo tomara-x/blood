@@ -15,13 +15,13 @@
 #X obj 79 359 knob 151 0 127 0 0 empty empty #191919 #00ff56 0 0 104 0 1 330 11;
 #X obj 239 359 knob 151 0 127 0 0 empty empty #191919 #ff4900 0 0 12 0 1 330 0;
 #X obj 399 359 knob 151 0 127 0 0 empty empty #191919 #01687a 0 0 140 0 1 350 0;
-#X text 129 8 gender;
-#X text 9 258 fuck;
-#X text 9 418 magic;
-#X text 299 8 gay;
-#X text 461 8 doll;
+#X text 129 18 gender;
+#X text 24 258 fuck;
+#X text 24 418 magic;
+#X text 299 18 gay;
+#X text 461 18 doll;
 #X obj 659 39 cnv 15 21 21 empty empty 💧 -549 75 0 82 #575757 #191919 0;
-#X text 9 98 amount;
+#X text 24 98 amount;
 #X obj 659 289 cnv 15 21 21 empty empty 🦋 -223 -179 0 61 #575757 #191919 0;
 #X obj 659 349 cnv 15 21 21 empty empty 🧿 -239 83 0 97 #575757 #191919 0;
 #X obj 659 319 cnv 15 21 21 empty empty 💖 -228 -41 0 77 #575757 #191919 0;
@@ -221,7 +221,7 @@
 #N canvas 0 50 450 250 (subpatch) 1;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #0033ff 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #0066ff 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
