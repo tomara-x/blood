@@ -61,6 +61,7 @@
 #X text 359 -92 sorry;
 #X obj 659 419 cnv 15 21 21 empty empty 🔪 -155 -40 0 39 #575757 #ffffff 0;
 #X obj 659 449 cnv 15 21 21 empty empty ☢ -145 43 0 43 #575757 #ffffff 0;
+#X obj 659 479 cnv 15 21 21 empty empty ☣️ -264 0 0 40 #575757 #ffffff 0;
 #X connect 6 0 36 0 empty;
 #X connect 7 0 37 0 empty;
 #X connect 8 0 38 0 empty;
@@ -1151,7 +1152,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #00ff3b 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #ff00bf 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
