@@ -1111,7 +1111,7 @@
 #X msg 169 204 0 1024;
 #X obj 169 154 pack2;
 #X obj 219 102 r bins_\$0;
-#X obj 234 239 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 234 239 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 185 269 b;
 #X obj 208 270 * -1;
 #X text 359 38 1) select array;
@@ -1154,7 +1154,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #002bff 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #8800ff 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
