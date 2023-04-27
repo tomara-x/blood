@@ -52,7 +52,7 @@
 #X msg 479 489 set \$1;
 #X msg 319 489 set \$1;
 #X msg 159 489 set \$1;
-#X obj 659 389 cnv 15 21 21 empty skull_\$0 💀 -268 -11 0 39 #575757 #ffffff 0;
+#X obj 659 389 cnv 15 21 21 empty skull_\$0 💀 -268 -11 0 39 #575757 #ffca00 0;
 #X obj 69 -121 param gayness;
 #X obj 179 -121 param dolls;
 #X obj 79 -91 param gaysex;
@@ -64,7 +64,7 @@
 #X obj -51 -121 param genders;
 #X text 359 -92 sorry;
 #X obj 659 419 cnv 15 21 21 empty knife_\$0 🔪 -155 -40 0 39 #575757 #ffffff 0;
-#X obj 659 449 cnv 15 21 21 empty nuclear_\$0 ☢ -145 43 0 43 #575757 #ffca00 0;
+#X obj 659 449 cnv 15 21 21 empty nuclear_\$0 ☢ -145 43 0 43 #575757 #ffffff 0;
 #X obj 659 479 cnv 15 21 21 empty biohaz_\$0 ☣️ -264 0 0 40 #575757 #ffffff 0;
 #X obj 599 619 route click;
 #X obj 679 619 route click;
@@ -91,6 +91,7 @@
 #X obj 819 509 param magic-type;
 #X obj 819 549 select 0 1 2 3;
 #X text 906 992 i'm really really sorry;
+#X obj 819 479 r magic-mode_\$0;
 #X connect 0 0 68 0 empty;
 #X connect 1 0 69 0 empty;
 #X connect 2 0 67 0 empty;
@@ -181,6 +182,7 @@
 #X connect 89 2 76 0 empty;
 #X connect 89 3 84 0 empty;
 #X connect 89 3 77 0 empty;
+#X connect 91 0 88 0 empty;
 #X coords 0 1 100 -1 631 551 1 0 0;
 #X restore -1 -1 graph;
 #N canvas 0 50 630 550 void 1;
@@ -1220,7 +1222,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #ffbb00 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #00c8ff 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
