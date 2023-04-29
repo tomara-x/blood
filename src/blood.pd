@@ -1337,6 +1337,15 @@
 #X obj 639 309 r doll-mode_\$0;
 #X obj 639 339 r uwu-mode_\$0;
 #X obj 639 369 r witch-mode_\$0;
+#X obj 489 89 r k_gender-amnt_\$0;
+#X obj 489 119 r k_genderfuck_\$0;
+#X obj 489 149 r k_insight_\$0;
+#X obj 489 199 r k_gay-amnt_\$0;
+#X obj 489 229 r k_gaysex_\$0;
+#X obj 489 259 r k_enchantment_\$0;
+#X obj 489 309 r k_doll-amnt_\$0;
+#X obj 489 369 r k_witch_\$0;
+#X obj 489 339 r k_plsplsplsuwu_\$0;
 #X connect 0 0 4 0 empty;
 #X connect 1 0 14 0 empty;
 #X connect 1 1 14 1 32.................L....DB....C....g....fA....;
@@ -1954,7 +1963,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #9100ff 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #6a00ff 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
