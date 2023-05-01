@@ -2302,8 +2302,6 @@
 #X connect 3 0 1 0 empty;
 #X connect 4 0 2 0 empty;
 #X restore 539 323 pd swich;
-#X obj 549 89 loadbang;
-#X text 459 72 have a reset bang outside?;
 #X connect 0 0 4 0 empty;
 #X connect 1 0 11 0 empty;
 #X connect 1 0 22 0 empty;
@@ -2401,14 +2399,6 @@
 #X connect 43 1 2 1 empty;
 #X connect 44 0 38 2 empty;
 #X connect 44 1 43 2 empty;
-#X connect 45 0 23 0 empty;
-#X connect 45 0 26 0 empty;
-#X connect 45 0 29 0 empty;
-#X connect 45 0 34 0 empty;
-#X connect 45 0 36 0 empty;
-#X connect 45 0 40 0 empty;
-#X connect 45 0 42 0 empty;
-#X connect 45 0 44 0 empty;
 #X coords 0 0 1 1 230 100 0;
 #X restore 149 399 pd voidvoidvoidvoid;
 #X text 279 248 Hey.;
@@ -3603,8 +3593,6 @@
 #X connect 3 0 1 0 empty;
 #X connect 4 0 2 0 empty;
 #X restore 539 323 pd swich;
-#X obj 549 89 loadbang;
-#X text 459 72 have a reset bang outside?;
 #X connect 0 0 4 0 empty;
 #X connect 1 0 11 0 empty;
 #X connect 1 0 22 0 empty;
@@ -3702,14 +3690,6 @@
 #X connect 43 1 2 1 empty;
 #X connect 44 0 38 2 empty;
 #X connect 44 1 43 2 empty;
-#X connect 45 0 23 0 empty;
-#X connect 45 0 26 0 empty;
-#X connect 45 0 29 0 empty;
-#X connect 45 0 34 0 empty;
-#X connect 45 0 36 0 empty;
-#X connect 45 0 40 0 empty;
-#X connect 45 0 42 0 empty;
-#X connect 45 0 44 0 empty;
 #X coords 0 0 1 1 230 100 0;
 #X restore 289 399 pd voidvoidvoidvoid;
 #X connect 1 0 2 0 32.................J....j3+++uB....I9+++6A....;
@@ -3958,7 +3938,7 @@
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj -1 -1 cnv 15 631 551 empty empty empty 20 12 0 14 #000000 #ffffff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #00ff99 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #00ff15 0;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
