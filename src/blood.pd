@@ -119,7 +119,7 @@
 #X obj 779 389 cnv 15 21 21 empty tooth_\$0 🦷 -272 -330 0 42 #575757 #ffffff 0;
 #X obj 779 419 cnv 15 21 21 empty needle_\$0 🪡 -277 -198 0 53 #575757 #ffffff 0;
 #X obj 779 449 cnv 15 21 21 empty bandage_\$0 🩹 -276 -117 0 49 #575757 #ffffff 0;
-#X obj 779 479 cnv 15 21 21 empty sun_\$0 ☀️ -702 -423 0 40 #575757 #ffca00 0;
+#X obj 779 479 cnv 15 21 21 empty sun_\$0 ☀️ -702 -423 0 40 #575757 #ffffff 0;
 #X obj 809 389 cnv 15 21 21 empty moon_\$0 🌕 -615 -331 0 40 #575757 #ffffff 0;
 #X obj 809 419 cnv 15 21 21 empty planet_\$0 🪐 -622 -251 0 49 #575757 #ffffff 0;
 #X obj 837 419 cnv 15 21 21 empty testtube_\$0 🧪 -654 -89 0 40 #575757 #ffffff 0;
@@ -130,7 +130,7 @@
 #X obj 867 449 cnv 15 21 21 empty brain_\$0 🧠 -363 -278 0 41 #575757 #ffffff 0;
 #X obj 869 479 cnv 15 21 21 empty dharma_\$0 ☸️ -519 -420 0 41 #575757 #ffffff 0;
 #X obj 869 419 cnv 15 21 21 empty atom_\$0 ⚛️ -631 -251 0 41 #575757 #ffffff 0;
-#X obj 839 389 cnv 15 21 21 empty star_\$0 🌟 -762 -220 0 32 #575757 #ffffff 0;
+#X obj 839 389 cnv 15 21 21 empty star_\$0 🌟 -762 -220 0 32 #575757 #ffca00 0;
 #X obj 689 389 cnv 15 21 21 empty feather_\$0 🪶 -501 99 0 49 #575757 #ffffff 0;
 #X obj 899 449 cnv 15 21 21 empty supersoaker_\$0 🔫 -715 -230 0 40 #575757 #ffffff 0;
 #X obj 899 419 cnv 15 21 21 empty axe_\$0 🪓 -823 -91 0 44 #575757 #ffffff 0;
@@ -1434,8 +1434,8 @@
 #X obj 812 9 inlet~;
 #X obj 9 339 outlet~;
 #X obj 860 339 outlet~;
-#X obj 869 49 switch~;
-#X obj 869 9 inlet;
+#X obj 879 49 switch~;
+#X obj 879 9 inlet;
 #N canvas 0 50 525 342 sun-lipstick 0;
 #X obj 9 9 inlet~;
 #X obj 219 9 inlet~;
@@ -3166,8 +3166,8 @@
 #X obj 812 9 inlet~;
 #X obj 9 339 outlet~;
 #X obj 860 339 outlet~;
-#X obj 869 49 switch~;
-#X obj 869 9 inlet;
+#X obj 879 49 switch~;
+#X obj 879 9 inlet;
 #N canvas 0 50 525 342 sun-lipstick 0;
 #X obj 9 9 inlet~;
 #X obj 219 9 inlet~;
