@@ -1066,7 +1066,7 @@
 #X connect 18 0 4 0 empty;
 #X connect 18 0 3 0 empty;
 #X restore -111 469 pd free;
-#X obj 659 9 cnv 15 21 21 empty empty ▵ -662 25 0 273 #575757 #ff66cc 0;
+#X obj 659 9 cnv 15 21 21 empty empty ▲ -99 477 0 77 #575757 #ff66cc 0;
 #X obj 749 219 cnv 15 21 21 empty skull_\$0 💀 -618 -3 0 39 #575757 #ff0300 0;
 #N canvas 0 50 450 300 clear-delay-line 1;
 #X obj 119 19 inlet;
@@ -1079,6 +1079,7 @@
 #X connect 2 0 3 0 empty;
 #X connect 3 0 4 0 empty;
 #X restore 699 309 pd clear-delay-line;
+#X obj 687 9 cnv 15 21 21 empty empty ▼ -674 52 0 77 #575757 #ff66cc 0;
 #X connect 0 0 146 0 empty;
 #X connect 1 0 143 0 empty;
 #X connect 2 0 142 0 empty;
