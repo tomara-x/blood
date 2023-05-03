@@ -2286,7 +2286,7 @@
 #X connect 29 0 0 0 empty;
 #X restore 371 190 pd star-testtube;
 #X obj 479 369 comb.rev~ 22230 0 1 0;
-#X obj 239 310 r clear_delay_line_\$0;
+#X obj 239 320 r clear_delay_line_\$0;
 #X obj 9 369 comb.rev~ 22230 0 1 0;
 #X text 469 488 then tomara created the rest;
 #N canvas 0 50 525 342 planet-lipstick 0;
@@ -2511,6 +2511,7 @@
 #X connect 31 0 26 0 empty;
 #X restore 413 249 pd planet-testtube;
 #X text 539 251 i know;
+#X obj 159 319 clip~ 0 4;
 #X connect 0 0 22 0 empty;
 #X connect 1 0 20 0 empty;
 #X connect 5 0 4 0 empty;
@@ -2593,11 +2594,12 @@
 #X connect 26 2 20 1 32.................O....DI...vC....QB...XD....;
 #X connect 26 3 20 4 32.................g....XM...PH....VC...XD....;
 #X connect 27 0 22 1 empty;
-#X connect 27 0 22 4 empty;
+#X connect 27 0 29 0 empty;
 #X connect 27 1 20 1 empty;
 #X connect 27 1 20 4 empty;
 #X connect 27 2 22 0 empty;
 #X connect 27 3 20 0 empty;
+#X connect 29 0 22 4 empty;
 #X restore 9 119 pd gender;
 #X text 429 528 sway through the crowd to an;
 #N canvas 0 50 450 300 bypass 0;
@@ -4368,7 +4370,7 @@
 #X connect 29 0 0 0 empty;
 #X restore 371 190 pd star-testtube;
 #X obj 479 369 comb.rev~ 22230 0 1 0;
-#X obj 239 310 r clear_delay_line_\$0;
+#X obj 239 320 r clear_delay_line_\$0;
 #X obj 9 369 comb.rev~ 22230 0 1 0;
 #X text 469 488 then tomara created the rest;
 #N canvas 0 50 525 342 planet-lipstick 0;
@@ -4593,6 +4595,7 @@
 #X connect 31 0 26 0 empty;
 #X restore 413 249 pd planet-testtube;
 #X text 539 251 i know;
+#X obj 159 319 clip~ 0 4;
 #X connect 0 0 22 0 empty;
 #X connect 1 0 20 0 empty;
 #X connect 5 0 4 0 empty;
@@ -4675,11 +4678,12 @@
 #X connect 26 2 20 1 32.................O....DI...vC....QB...XD....;
 #X connect 26 3 20 4 32.................g....XM...PH....VC...XD....;
 #X connect 27 0 22 1 empty;
-#X connect 27 0 22 4 empty;
+#X connect 27 0 29 0 empty;
 #X connect 27 1 20 1 empty;
 #X connect 27 1 20 4 empty;
 #X connect 27 2 22 0 empty;
 #X connect 27 3 20 0 empty;
+#X connect 29 0 22 4 empty;
 #X restore 9 119 pd gender;
 #X text 429 528 sway through the crowd to an;
 #N canvas 0 50 450 300 bypass 0;
