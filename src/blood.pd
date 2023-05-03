@@ -1066,7 +1066,7 @@
 #X connect 18 0 4 0 empty;
 #X connect 18 0 3 0 empty;
 #X restore -111 469 pd free;
-#X obj 659 9 cnv 15 21 21 empty empty ▲ -99 477 0 77 #575757 #ff66cc 0;
+#X obj 659 9 cnv 15 21 21 empty empty ▲ -106 477 0 77 #575757 #ff66cc 0;
 #X obj 749 219 cnv 15 21 21 empty skull_\$0 💀 -618 -3 0 39 #575757 #cdff49 0;
 #N canvas 0 50 450 300 clear-delay-line 1;
 #X obj 119 19 inlet;
@@ -5669,7 +5669,7 @@
 #X obj 667 519 cnv 15 21 21 empty empty 💧 -143 15 0 22 #575757 #ff0000 0;
 #X obj 695 519 cnv 15 21 21 empty empty 💧 -155 15 0 22 #575757 #ff0000 0;
 #X obj 657 429 cnv 15 21 21 empty empty 🧿 -507 -166 0 280 #575757 #001219 0;
-#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #1eff00 0;
+#X obj 639 -1 cnv 15 21 21 empty butterfly_\$0 🦋 -338 229 0 78 #ffffff #0048ff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 209 139 note 0 35 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
