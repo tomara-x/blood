@@ -1067,7 +1067,7 @@
 #X connect 18 0 3 0 empty;
 #X restore -111 469 pd free;
 #X obj 659 9 cnv 15 21 21 empty empty ▲ -106 477 0 77 #575757 #ff66cc 0;
-#X obj 749 219 cnv 15 21 21 empty skull_\$0 💀 -618 -3 0 39 #575757 #cdff49 0;
+#X obj 749 219 cnv 15 21 21 empty empty 💀 -618 -3 0 39 #575757 #cdff49 0;
 #N canvas 0 50 450 300 clear-delay-line 1;
 #X obj 119 19 inlet;
 #X obj 119 59 route click;
