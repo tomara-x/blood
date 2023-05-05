@@ -1619,6 +1619,10 @@
 #X obj 159 259 outlet;
 #X obj 109 9 inlet;
 #X obj 189 9 inlet;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X text 109 128 what are the odds someone reads this?;
+#X coords 0 1 100 -1 21 21 1 0 0;
+#X restore 417 271 graph;
 #X connect 0 0 2 0 empty;
 #X connect 1 0 0 0 empty;
 #X connect 1 1 0 1 empty;
