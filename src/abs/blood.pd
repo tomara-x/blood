@@ -755,7 +755,6 @@
 #X obj 129 189 s gay;
 #X obj 129 219 s gaysex;
 #X obj 129 249 s enchantment;
-#X obj 249 189 s doll-amnt;
 #X obj 249 219 s plsplsplsuwu;
 #X obj 249 249 s witch;
 #X obj 9 329 s gender-mode;
@@ -767,6 +766,7 @@
 #X obj 309 329 s doll-mode;
 #X obj 309 359 s uwu-mode;
 #X obj 309 389 s witch-mode;
+#X obj 249 189 s doll;
 #X connect 0 0 1 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 3 0 empty;
