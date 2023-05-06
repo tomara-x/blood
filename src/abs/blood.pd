@@ -1362,7 +1362,6 @@
 #X obj 149 154 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X connect 1 0 2 0 empty;
 #X connect 3 0 1 0 empty;
-#X connect 3 0 21 0 48.................E....75+++eA....u9+++iG...PX++++3A...D1+++ee....;
 #X connect 3 0 20 0 48.................E....75+++eA....u9+++mA...P09+++Y....Ts+++uG....;
 #X connect 4 0 18 0 empty;
 #X connect 5 0 6 0 empty;
