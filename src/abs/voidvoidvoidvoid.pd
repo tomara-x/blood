@@ -62,7 +62,7 @@
 #X text 396 196 look at the stars;
 #X obj 429 39 switch~;
 #X obj 429 9 inlet;
-#N canvas 0 50 450 300 lungs 1;
+#N canvas 0 50 450 300 lungs 0;
 #X obj 19 29 inlet~;
 #X obj 133 29 inlet~;
 #X obj 19 189 *~;
@@ -90,7 +90,7 @@
 #X obj 291 69 == 1;
 #X obj 332 69 == 2;
 #X obj 375 69 == 3;
-#N canvas 0 50 450 300 teeth 1;
+#N canvas 0 50 450 300 teeth 0;
 #X obj 9 9 inlet~;
 #X obj 59 9 inlet~;
 #X obj 9 269 outlet~;
@@ -119,7 +119,7 @@
 #X connect 12 0 13 0 empty;
 #X connect 13 0 10 0 empty;
 #X restore 99 129 pd teeth;
-#N canvas 0 50 450 300 heart 1;
+#N canvas 0 50 450 300 heart 0;
 #X obj 19 19 inlet~;
 #X obj 79 19 inlet~;
 #X obj 19 259 outlet~;
@@ -149,7 +149,7 @@
 #X connect 12 0 4 0 empty;
 #X connect 13 0 12 0 empty;
 #X restore 179 129 pd heart;
-#N canvas 0 50 580 360 brain 1;
+#N canvas 0 50 580 360 brain 0;
 #X obj 19 29 inlet~;
 #X obj 83 29 inlet~;
 #X obj 19 279 *~;
@@ -1559,7 +1559,7 @@
 #X connect 5 0 4 0 empty;
 #X restore 109 229 pd bypass;
 #N canvas 0 50 450 300 gaysex 1;
-#N canvas 0 50 470 370 send-to-arr 1;
+#N canvas 0 50 470 370 send-to-arr 0;
 #X obj 29 189 inlet~;
 #X obj 9 339 outlet~;
 #X text 67 340 for order of execution;
@@ -1580,7 +1580,7 @@
 #X obj 59 259 outlet~;
 #X obj 120 259 outlet~;
 #X obj 132 19 inlet~;
-#N canvas 0 50 547 387 gaysex 1;
+#N canvas 0 50 547 387 gaysex 0;
 #X obj 9 9 inlet~;
 #X text 59 8 oreder of execution;
 #X obj 59 359 outlet~;
@@ -1628,7 +1628,7 @@
 #X connect 7 0 6 0 empty;
 #X restore 9 279 pd gaysex;
 #N canvas 0 50 450 300 enchant 1;
-#N canvas 0 50 470 370 send-to-arr 1;
+#N canvas 0 50 470 370 send-to-arr 0;
 #X obj 29 189 inlet~;
 #X obj 9 339 outlet~;
 #X text 67 340 for order of execution;
@@ -1645,7 +1645,7 @@
 #X connect 4 0 3 0 empty;
 #X connect 5 0 9 0 empty;
 #X restore 49 119 pd send-to-arr;
-#N canvas 0 50 547 387 enchant 1;
+#N canvas 0 50 547 387 enchant 0;
 #X obj 9 9 inlet~;
 #X text 59 8 oreder of execution;
 #X obj 59 359 outlet~;
@@ -1989,16 +1989,16 @@
 #X msg 9 39 resize \$1;
 #X obj 9 9 blocksize~;
 #X obj 239 129 inlet~;
-#X obj 39 169 tabsend~ clover-real_\$0;
 #X obj 9 199 array define clover-real_\$0;
-#X obj 219 199 array define clover_imag_\$0;
-#X f 26;
 #X obj 239 169 tabsend~ clover-imag_\$0;
-#X connect 0 0 6 0 empty;
-#X connect 3 0 7 0 empty;
-#X connect 3 0 8 0 empty;
+#X obj 39 169 tabsend~ clover-real_\$0;
+#X obj 219 199 array define clover-imag_\$0;
+#X f 26;
+#X connect 0 0 8 0 empty;
+#X connect 3 0 6 0 empty;
+#X connect 3 0 9 0 empty;
 #X connect 4 0 3 0 empty;
-#X connect 5 0 9 0 empty;
+#X connect 5 0 7 0 empty;
 #X restore 139 99 pd send-to-arr;
 #N canvas 0 50 450 394 read-gay-index 1;
 #X obj 9 9 inlet~;
@@ -2126,7 +2126,7 @@
 #X connect 7 0 6 0 empty;
 #X restore 89 139 pd dharma;
 #N canvas 0 50 450 300 atom 1;
-#N canvas 0 50 470 370 send-to-arr 1;
+#N canvas 0 50 470 370 send-to-arr 0;
 #X obj 29 189 inlet~;
 #X obj 9 339 outlet~;
 #X text 67 340 for order of execution;
@@ -2143,7 +2143,7 @@
 #X connect 4 0 3 0 empty;
 #X connect 5 0 8 0 empty;
 #X restore 139 99 pd send-to-arr;
-#N canvas 0 50 450 394 read-gay-index 1;
+#N canvas 0 50 450 394 read-gay-index 0;
 #X obj 9 9 inlet~;
 #X text 50 8 for order of execution;
 #X obj 109 359 outlet~;
