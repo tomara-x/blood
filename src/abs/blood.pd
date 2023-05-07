@@ -965,7 +965,7 @@
 #X connect 9 0 17 0 empty;
 #X connect 9 0 18 0 empty;
 #X restore -111 469 pd free;
-#X obj 659 9 cnv 15 21 21 empty empty ▲ -106 477 0 77 #575757 #ff66cc 0;
+#X obj 659 9 cnv 15 21 21 empty empty ▲ -69 524 0 50 #575757 #ff66cc 0;
 #X obj 749 219 cnv 15 21 21 empty empty 💀 -618 -3 0 39 #575757 #cdff49 0;
 #N canvas 0 50 450 300 clear-delay-line 1;
 #X obj 119 19 inlet;
@@ -978,7 +978,7 @@
 #X connect 2 0 3 0 empty;
 #X connect 3 0 4 0 empty;
 #X restore 699 309 pd clear-delay-line;
-#X obj 687 9 cnv 15 21 21 empty empty ▼ -674 52 0 77 #575757 #ff66cc 0;
+#X obj 687 9 cnv 15 21 21 empty empty ▼ -689 10 0 50 #575757 #ff66cc 0;
 #X obj 239 559 param gay;
 #X obj 379 559 param doll;
 #X obj 461 18 note 35 14 Inter empty 0 255 255 255 0 25 25 25 0 0 doll;
@@ -1384,7 +1384,7 @@
 #X connect 20 0 17 0 empty;
 #X connect 21 0 9 0 empty;
 #X restore 389 519 pd scale;
-#X restore 9 519 pd void;
+#X restore 79 519 pd void;
 #N canvas 0 50 630 550 light 1;
 #N canvas 0 50 450 250 (subpatch) 0;
 #X obj 309 195 pad 75 66 255 255 255;
@@ -1433,4 +1433,4 @@
 #X connect 7 0 5 0 empty;
 #X coords 0 1 100 -1 631 551 1 0 0;
 #X restore -1 -1 graph;
-#X restore 559 519 pd light;
+#X restore 493 519 pd light;
