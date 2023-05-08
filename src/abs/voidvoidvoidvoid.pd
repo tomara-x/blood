@@ -1794,7 +1794,7 @@
 #X obj 439 79 inlet~;
 #X obj 499 79 inlet~;
 #X obj 169 179 expr~ ($v1 * $v3) + ($v2 * $v4) \; ($v2 * $v3) - ($v1 * $v4), f 33;
-#N canvas 228 78 542 340 phase_lock 0;
+#N canvas 228 78 542 340 phase_lock 1;
 #X obj 385 133 lrshift~ 1;
 #X obj 300 133 lrshift~ -1;
 #X obj 285 225 +~;
@@ -1822,7 +1822,7 @@
 #X connect 10 0 8 0 empty;
 #X connect 11 0 8 1 empty;
 #X restore 169 229 pd phase_lock;
-#N canvas 362 104 559 245 norm 0;
+#N canvas 362 104 559 245 norm 1;
 #X obj 352 180 outlet~;
 #X obj 57 187 outlet~;
 #X obj 317 31 inlet~;
@@ -1836,7 +1836,6 @@
 #X connect 5 0 4 0 empty;
 #X connect 5 1 4 1 empty;
 #X restore 169 269 pd norm;
-#X obj 479 199 blocksize~;
 #X msg 479 229 resize \$1;
 #X obj 499 269 array define orb-real_\$0;
 #X obj 479 299 array define orb-imag_\$0;
@@ -1844,10 +1843,11 @@
 #X obj 189 369 tabsend~ orb-real_\$0;
 #X obj 59 99 tabreceive~ orb-real_\$0;
 #X obj 149 129 tabreceive~ orb-imag_\$0;
+#X obj 479 199 r bins;
 #X connect 2 0 0 0 empty;
-#X connect 2 0 15 0 empty;
+#X connect 2 0 14 0 empty;
 #X connect 2 1 1 0 empty;
-#X connect 2 1 14 0 empty;
+#X connect 2 1 13 0 empty;
 #X connect 3 0 7 2 empty;
 #X connect 4 0 7 3 empty;
 #X connect 5 0 2 2 empty;
@@ -1859,10 +1859,10 @@
 #X connect 9 0 2 0 empty;
 #X connect 9 1 2 1 empty;
 #X connect 10 0 11 0 empty;
-#X connect 11 0 12 0 empty;
-#X connect 11 0 13 0 empty;
-#X connect 16 0 7 0 empty;
-#X connect 17 0 7 1 empty;
+#X connect 10 0 12 0 empty;
+#X connect 15 0 7 0 empty;
+#X connect 16 0 7 1 empty;
+#X connect 17 0 10 0 empty;
 #X restore 59 199 pd phase-accum;
 #X connect 0 0 6 0 empty;
 #X connect 1 0 6 1 empty;
@@ -1882,7 +1882,7 @@
 #X obj 139 269 outlet~;
 #X obj 249 69 switch~;
 #X obj 249 29 inlet;
-#N canvas 0 50 450 300 delay-write 1;
+#N canvas 0 50 450 300 delay-write 0;
 #X obj 9 9 inlet~;
 #X obj 229 9 inlet~;
 #X obj 9 269 outlet~;
@@ -1892,7 +1892,7 @@
 #X connect 0 0 5 0 empty;
 #X connect 1 0 4 0 empty;
 #X restore 59 99 pd delay-write;
-#N canvas 0 50 650 540 delay-read 1;
+#N canvas 0 50 650 540 delay-read 0;
 #X text 69 8 for order of execution;
 #X obj 9 9 inlet~;
 #X obj 49 509 outlet~;
@@ -1935,7 +1935,7 @@
 #X connect 23 0 3 0 empty;
 #X connect 24 0 5 0 empty;
 #X restore 59 149 pd delay-read;
-#N canvas 377 157 654 496 phase-accum 1;
+#N canvas 377 157 654 496 phase-accum 0;
 #X obj 169 419 outlet~;
 #X obj 342 419 outlet~;
 #X obj 169 309 expr~ ($v1 * $v3) - ($v2 * $v4) \; ($v2 * $v3) + ($v1 * $v4);
@@ -1944,7 +1944,7 @@
 #X obj 439 79 inlet~;
 #X obj 499 79 inlet~;
 #X obj 169 179 expr~ ($v1 * $v3) + ($v2 * $v4) \; ($v2 * $v3) - ($v1 * $v4), f 33;
-#N canvas 228 78 542 340 phase_lock 1;
+#N canvas 228 78 542 340 phase_lock 0;
 #X obj 385 133 lrshift~ 1;
 #X obj 300 133 lrshift~ -1;
 #X obj 285 225 +~;
@@ -1972,7 +1972,7 @@
 #X connect 10 0 8 0 empty;
 #X connect 11 0 8 1 empty;
 #X restore 169 229 pd phase_lock;
-#N canvas 362 104 559 245 norm 1;
+#N canvas 362 104 559 245 norm 0;
 #X obj 352 180 outlet~;
 #X obj 57 187 outlet~;
 #X obj 317 31 inlet~;
