@@ -761,6 +761,7 @@
 #X obj 309 359 s uwu-mode;
 #X obj 309 389 s witch-mode;
 #X obj 249 189 s doll;
+#X obj 129 59 param reset;
 #X connect 0 0 1 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 3 0 empty;
@@ -782,6 +783,7 @@
 #X connect 3 0 19 0 empty;
 #X connect 3 0 20 0 empty;
 #X connect 3 0 21 0 empty;
+#X connect 22 0 2 0 empty;
 #X restore -121 319 pd reset;
 #N canvas 0 50 506 516 randomize 1;
 #X obj 99 9 inlet;
@@ -824,6 +826,7 @@
 #X obj 329 479 s witch-mode;
 #X obj 459 123 inlet;
 #X obj 29 430 s genderfuck-mode;
+#X obj 189 49 param randomize;
 #X connect 0 0 1 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 12 0 empty;
@@ -863,6 +866,7 @@
 #X connect 19 0 22 0 empty;
 #X connect 20 0 25 0 empty;
 #X connect 38 0 15 2 empty;
+#X connect 40 0 2 0 empty;
 #X restore 509 -41 pd randomize;
 #X obj 456 355 note 42 18 Inter izzy_\$0 0 255 255 255 0 25 25 25 0 0 izzy;
 #N canvas 0 50 540 320 izzy 1;
@@ -972,10 +976,12 @@
 #X obj 119 99 select 1;
 #X msg 119 149 clear;
 #X obj 119 199 s clear_delay_line;
+#X obj 209 59 param skull;
 #X connect 0 0 1 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 3 0 empty;
 #X connect 3 0 4 0 empty;
+#X connect 5 0 2 0 empty;
 #X restore 699 309 pd clear-delay-line;
 #X obj 239 559 param gay;
 #X obj 379 559 param doll;
