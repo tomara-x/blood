@@ -985,12 +985,12 @@
 #X obj 31 112 note 43 14 Inter empty 0 255 255 255 0 25 25 25 0 0 aura;
 #X obj 32 268 note 42 14 Inter empty 0 255 255 255 0 25 25 25 0 0 fuck;
 #X obj 24 428 note 52 14 Inter empty 0 255 255 255 0 25 25 25 0 0 magic;
-#X obj 9 9 knob 61 -96 24 0 0 empty empty #373737 #000000 #ffffff 1 0 0 0 1 350 0 0;
+#X obj 9 9 knob 61 -96 24 0 0 empty empty #373737 #191919 #ffffff 1 0 0 0 1 350 0 0;
 #X obj 687 9 cnv 15 21 21 empty empty ▼ -667 34 0 43 #575757 #ff66cc 0;
 #X obj 16 62 nbx 4 18 -96 24 0 0 empty pregain empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj -41 79 int;
 #X msg -101 79 set \$1;
-#X obj 559 473 knob 61 -96 24 0 0 empty empty #373737 #000000 #ffffff 1 0 0 0 1 350 0 0;
+#X obj 559 473 knob 61 -96 24 0 0 empty empty #373737 #191919 #ffffff 1 0 0 0 1 350 0 0;
 #X obj 567 463 nbx 4 18 -96 24 0 0 empty postgain empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 579 559 int;
 #X msg 639 549 set \$1;
