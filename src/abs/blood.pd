@@ -976,7 +976,7 @@
 #X obj 119 99 select 1;
 #X msg 119 149 clear;
 #X obj 119 199 s clear_delay_line;
-#X obj 209 59 param skull;
+#X obj 209 59 param clear-delay-line;
 #X connect 0 0 1 0 empty;
 #X connect 1 0 2 0 empty;
 #X connect 2 0 3 0 empty;
