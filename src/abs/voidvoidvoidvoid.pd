@@ -2036,9 +2036,6 @@
 #X connect 7 0 2 0 empty;
 #X connect 7 1 3 0 empty;
 #X connect 8 0 7 2 empty;
-#X connect 9 0 14 2 empty;
-#X connect 10 0 15 2 empty;
-#X connect 11 0 16 2 empty;
 #X connect 12 0 13 0 empty;
 #X connect 13 0 9 0 empty;
 #X connect 13 0 8 0 empty;
