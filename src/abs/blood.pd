@@ -68,15 +68,15 @@
 #X obj 659 129 cnv 15 21 21 empty k4 💧 -390 -14 0 82 #575757 #191919 0;
 #X obj 659 159 cnv 15 21 21 empty k5 💧 -390 115 0 82 #575757 #191919 0;
 #X obj 659 189 cnv 15 21 21 empty k6 💧 -390 247 0 82 #575757 #191919 0;
-#X obj 115 332 nbx 7 18 0 1 0 1 genderfuck empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 271 332 nbx 7 18 -512 512 0 1 gaysex empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 437 332 nbx 7 18 0 1 0 1 plsplsplsuwu empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 119 492 nbx 7 18 0 1 0 1 insight empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 279 492 nbx 7 18 0 1 0 1 enchantment empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 439 492 nbx 7 18 0 1 0 1 witch empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 119 172 nbx 7 18 0 2000 0 1 gender empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 275 172 nbx 7 18 -1 1 0 1 gay empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
-#X obj 434 172 nbx 7 18 0 1 0 1 doll empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 115 332 nbx 7 18 0 1 0 0 genderfuck empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 271 332 nbx 7 18 -512 512 0 0 gaysex empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 437 332 nbx 7 18 0 1 0 0 plsplsplsuwu empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 119 492 nbx 7 18 0 1 0 0 insight empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 279 492 nbx 7 18 0 1 0 0 enchantment empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 439 492 nbx 7 18 0 1 0 0 witch empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 119 172 nbx 7 18 0 2000 0 0 gender empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 275 172 nbx 7 18 -1 1 0 0 gay empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 434 172 nbx 7 18 0 1 0 0 doll empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X msg 449 109 set \$1;
 #X msg 289 109 set \$1;
 #X msg 129 99 set \$1;
@@ -90,7 +90,7 @@
 #X obj 659 449 cnv 15 21 21 empty nuclear ☢ -145 43 0 43 #575757 #ffffff 0;
 #X obj 659 479 cnv 15 21 21 empty biohaz ☣️ -264 9 0 46 #575757 #ffffff 0;
 #X obj 719 359 cnv 15 21 21 empty cat 🐱 -482 16 0 33 #575757 #ffacab 0;
-#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #00ffd9 0;
+#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #ff000d 0;
 #X obj 689 449 cnv 15 21 21 empty dna 🧬 -500 -67 0 42 #575757 #ffffff 0;
 #X obj 689 479 cnv 15 21 21 empty orb 🔮 -619 10 0 42 #575757 #ffffff 0;
 #X obj 719 389 cnv 15 21 21 empty shrimp 🍤 -373 -11 0 39 #575757 #ffffff 0;
@@ -148,7 +148,7 @@
 #X obj 89 459 s knife;
 #X obj 169 459 s biohaz;
 #X obj 259 459 s nuclear;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 189 s witch-mode;
 #X obj 359 39 r witch-mode;
 #X obj 359 69 param WITCH-mode;
@@ -222,7 +222,7 @@
 #X obj 89 459 s moon;
 #X obj 169 459 s star;
 #X obj 259 459 s planet;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 189 s gender-mode;
 #X obj 359 69 param GENDER-mode;
 #X obj 359 39 r gender-mode;
@@ -295,7 +295,7 @@
 #X obj 99 459 s supersoaker;
 #X obj 239 459 s axe;
 #X obj 329 459 s testtube;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 189 s genderfuck-mode;
 #X obj 369 39 r genderfuck-mode;
 #X obj 369 74 param GENDERFUCK-mode;
@@ -371,7 +371,7 @@
 #X obj 259 459 s feather;
 #X obj 89 459 s dna;
 #X obj 9 459 s trans;
-#X obj 139 115 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 139 115 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 249 209 s insight-mode;
 #X obj 469 49 r insight-mode;
 #X obj 469 79 param INSIGHT-mode;
@@ -447,7 +447,7 @@
 #X obj 89 459 s dharma;
 #X obj 189 459 s atom;
 #X obj 279 459 s dino;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 189 s gay-mode;
 #X obj 359 34 r gay-mode;
 #X obj 359 69 param GAY-mode;
@@ -520,7 +520,7 @@
 #X obj 89 459 s kiss;
 #X obj 169 459 s fire;
 #X obj 259 459 s rainbow;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 139 189 s gaysex-mode;
 #X obj 369 39 r gaysex-mode;
 #X obj 369 69 param GAYSEX-mode;
@@ -593,7 +593,7 @@
 #X obj 89 459 s shrimp;
 #X obj 179 459 s mushroom;
 #X obj 299 459 s 8ball;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 189 s enchantment-mode;
 #X obj 349 49 r enchantment-mode;
 #X obj 349 79 param ENCHANTMENT-mode;
@@ -666,7 +666,7 @@
 #X obj 99 459 s tooth;
 #X obj 179 459 s heart;
 #X obj 269 459 s brain;
-#X obj 9 119 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 119 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 119 199 s doll-mode;
 #X obj 359 49 r doll-mode;
 #X obj 359 79 param DOLL-mode;
@@ -739,7 +739,7 @@
 #X obj 109 459 s needle;
 #X obj 199 459 s candy;
 #X obj 289 459 s bandage;
-#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 1 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
+#X obj 9 109 nbx 4 18 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10 #191919 #ffffff #ffffff 0 256;
 #X obj 129 189 s uwu-mode;
 #X obj 369 45 r uwu-mode;
 #X obj 369 79 param UWU-mode;
