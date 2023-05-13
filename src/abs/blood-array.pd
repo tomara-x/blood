@@ -90,7 +90,7 @@
 #X obj 659 449 cnv 15 21 21 empty nuclear ☢ -145 43 0 43 #575757 #ffffff 0;
 #X obj 659 479 cnv 15 21 21 empty biohaz ☣️ -264 9 0 46 #575757 #ffffff 0;
 #X obj 719 359 cnv 15 21 21 empty cat 🐱 -482 16 0 33 #575757 #ffacab 0;
-#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #00aeff 0;
+#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #ff3300 0;
 #X obj 689 449 cnv 15 21 21 empty dna 🧬 -500 -67 0 42 #575757 #ffffff 0;
 #X obj 689 479 cnv 15 21 21 empty orb 🔮 -619 10 0 42 #575757 #ffffff 0;
 #X obj 719 389 cnv 15 21 21 empty shrimp 🍤 -373 -11 0 39 #575757 #ffffff 0;
@@ -1283,6 +1283,8 @@
 #X obj 329 469 *~ 1;
 #X obj 209 425 bitnormal~;
 #X obj 329 425 bitnormal~;
+#X obj 269 59 loadbang;
+#X obj 269 89 s patch-load;
 #X connect 1 0 11 0 empty;
 #X connect 1 1 12 0 32.................Y....XF...PF....lA...HC....;
 #X connect 3 0 15 0 empty;
@@ -1301,4 +1303,5 @@
 #X connect 14 0 0 1 32.................K....r4++++B....a9+++SA....;
 #X connect 15 0 13 0 empty;
 #X connect 16 0 14 0 empty;
+#X connect 17 0 18 0 empty;
 #X restore 79 519 pd void;
