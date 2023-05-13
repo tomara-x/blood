@@ -90,7 +90,7 @@
 #X obj 659 449 cnv 15 21 21 empty nuclear ☢ -145 43 0 43 #575757 #ffffff 0;
 #X obj 659 479 cnv 15 21 21 empty biohaz ☣️ -264 9 0 46 #575757 #ffffff 0;
 #X obj 719 359 cnv 15 21 21 empty cat 🐱 -482 16 0 33 #575757 #ffacab 0;
-#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #ff9500 0;
+#X obj 689 419 cnv 15 21 21 empty trans ⚧ -609 -36 0 48 #575757 #2600ff 0;
 #X obj 689 449 cnv 15 21 21 empty dna 🧬 -500 -67 0 42 #575757 #ffffff 0;
 #X obj 689 479 cnv 15 21 21 empty orb 🔮 -619 10 0 42 #575757 #ffffff 0;
 #X obj 719 389 cnv 15 21 21 empty shrimp 🍤 -373 -11 0 39 #575757 #ffffff 0;
@@ -1243,11 +1243,6 @@
 #X obj 649 119 route click;
 #X obj 649 149 select 1;
 #X obj 649 379 cnv 15 21 21 empty empty 🧿 -836 -127 0 922 #575757 #191919 0;
-#X text 513 502 tomara;
-#X text 560 525 i love you;
-#X obj 639 519 cnv 15 21 21 empty empty 💧 -131 15 0 22 #575757 #ff0000 0;
-#X obj 667 519 cnv 15 21 21 empty empty 💧 -143 15 0 22 #575757 #ff0000 0;
-#X obj 695 519 cnv 15 21 21 empty empty 💧 -155 15 0 22 #575757 #ff0000 0;
 #X obj 657 429 cnv 15 21 21 empty empty 🧿 -507 -166 0 280 #575757 #001219 0;
 #X obj 639 -1 cnv 15 21 21 empty butterfly 🦋 -338 229 0 78 #ffffff #0048ff 0;
 #X obj 149 129 note 0 37 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
@@ -1255,10 +1250,11 @@
 #X obj 179 179 note 0 27 Inter empty 0 255 255 255 0 25 25 25 0 0 our;
 #X obj 219 179 note 0 43 Inter empty 0 255 255 255 0 25 25 25 0 0 love;
 #X obj 649 299 s butterfly;
+#X obj 569 519 note 0 14 Inter empty 0 255 255 255 0 25 25 25 0 0 tomara;
 #X connect 0 0 6 0 empty;
 #X connect 2 0 4 0 empty;
 #X connect 3 0 2 0 empty;
-#X connect 4 0 20 0 empty;
+#X connect 4 0 15 0 empty;
 #X connect 5 0 3 0 empty;
 #X connect 6 0 7 0 empty;
 #X connect 7 0 5 0 empty;
