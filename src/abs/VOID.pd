@@ -2275,10 +2275,10 @@
 #X obj 19 279 tabread~ fire-real_\$0;
 #X obj 19 234 ramp~ 1 0;
 #X obj 22 204 b;
-#X obj 66 164 blocksize~;
-#X obj 366 141 r overlap;
-#X obj 366 202 /;
-#X obj 366 170 t b f;
+#X obj 66 154 blocksize~;
+#X obj 366 111 r overlap;
+#X obj 366 172 /;
+#X obj 366 140 t b f;
 #X connect 4 0 11 0 empty;
 #X connect 4 0 12 0 32.................R....Ts+++uD....U6+++6A....;
 #X connect 5 0 4 0 empty;
@@ -2298,6 +2298,7 @@
 #X connect 15 0 17 0 empty;
 #X connect 16 0 18 0 empty;
 #X connect 17 0 4 3 empty;
+#X connect 17 0 5 0 32.................D....H8+++OA....R++++e.....;
 #X connect 18 0 17 0 empty;
 #X connect 18 1 17 1 empty;
 #X restore 9 179 pd gaysex;
