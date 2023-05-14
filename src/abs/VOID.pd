@@ -1585,13 +1585,15 @@
 #X connect 7 0 4 0 empty;
 #X connect 7 1 4 1 empty;
 #X restore 49 79 pd phasor;
-#X obj 319 189 expr $f1 * 4800 - 2400;
+#X obj 449 279 expr $f1 * 4800 - 2400;
+#X text 449 258 lol that's a huge ass ratio;
+#X obj 319 189 expr $f1 * 8 - 4;
 #X connect 6 0 13 0 empty;
 #X connect 7 0 2 0 empty;
 #X connect 8 0 3 0 empty;
 #X connect 9 0 4 0 empty;
 #X connect 10 0 5 0 empty;
-#X connect 11 0 30 0 empty;
+#X connect 11 0 32 0 empty;
 #X connect 12 0 8 0 empty;
 #X connect 12 0 10 0 32.................K....vC...vB....7....HC....;
 #X connect 13 0 7 0 empty;
@@ -1617,8 +1619,8 @@
 #X connect 27 0 29 0 empty;
 #X connect 28 0 21 0 empty;
 #X connect 29 0 25 0 empty;
-#X connect 30 0 18 0 32.................IA...r6+++eR....69+++eE....;
-#X connect 30 0 23 1 32.................h....X0+++uH....V8++++B....;
+#X connect 32 0 18 0 32.................IA...r6+++eR....69+++eE....;
+#X connect 32 0 23 1 32.................h....X0+++uH....V8++++B....;
 #X restore 59 149 pd delay-read;
 #N canvas 377 157 654 496 phase-accum 0;
 #X obj 169 419 outlet~;
