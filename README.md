@@ -7,3 +7,7 @@
 4. save the whole thing as a preset in your daw
 
 https://github.com/tomara-x/blood/assets/86204514/40a5b9e0-15ee-444f-a6dd-cc97e987c287
+
+clicking doll will randomize modes and knobs
+clicking fuck will reset them to initial posetion
+and clicking the skull or X (depends on version) on the middle left knob will clear the delay line
