@@ -2,7 +2,7 @@
 
 0. install plugdata: https://plugdata.org/download.html
 1. get the latest release: https://github.com/tomara-x/blood/releases
-2. drag and drop the .vstpreset file into your daw
+2. drag and drop the .vstpreset file into your daw (doesn't work? see [issue #2](https://github.com/tomara-x/blood/issues/2))
 3. open the menu and select "open patch" and open the blood-win.pd if you're on windows, or blood.pd otherwise
 4. save the whole thing as a preset in your daw
 
