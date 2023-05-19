@@ -6,4 +6,4 @@
 3. open the menu and select "open patch" and open the blood-win.pd if you're on windows, or blood.pd otherwise
 4. save the whole thing as a preset in your daw
 
-https://github.com/tomara-x/blood/assets/86204514/01b11ac1-3036-48f9-9aee-ac176dace309
+https://github.com/tomara-x/blood/assets/86204514/40a5b9e0-15ee-444f-a6dd-cc97e987c287
