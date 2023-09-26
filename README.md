@@ -5,7 +5,9 @@
 2. add a plugdata-fx in your daw
 3. open the menu and select "Workspace" -> "Import workspace"
 4. open the `blood-win.pdproj` if you're on windows, or `blood.pdproj` otherwise
-5. save the whole thing as a preset in your daw (for easy access)
+5. close the main patch (the one with the knobs) (leaving the arrays tab open)
+6. open the `blood-win.pd` file or `blood.pd` if not on windows
+7. save the whole thing as a preset in your daw (for easy access)
 
 https://github.com/tomara-x/blood/assets/86204514/85eed329-420b-4c67-9e23-cbd92e009359
 
