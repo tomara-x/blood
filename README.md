@@ -9,7 +9,7 @@
 6. open the `blood-win.pd` file or `blood.pd` if not on windows
 7. save the whole thing as a preset in your daw (for easy access)
 
-https://github.com/tomara-x/blood/assets/86204514/85eed329-420b-4c67-9e23-cbd92e009359
+https://github.com/tomara-x/blood/assets/86204514/30c86dee-0f34-4c39-b8d7-f45f82d44da6
 
 ###### places to click:
 - clicking doll will randomize modes and knobs
