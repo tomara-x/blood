@@ -2420,7 +2420,7 @@
 #X obj 59 279 tabread~ cat-real_\$0;
 #X obj 139 309 tabread~ cat-imag_\$0;
 #X obj 368 153 clip 0 0.99;
-#X obj 266 216 s2f~ 10;
+#X obj 266 216 s2f~;
 #X connect 4 0 8 0;
 #X connect 4 0 9 0 32.................E.....J...PA....fB...zI....;
 #X connect 5 0 4 3;
@@ -2500,7 +2500,7 @@
 #X obj 29 299 fold~ 0 1024;
 #X obj 29 329 tabread~ shrimp-real_\$0;
 #X obj 359 319 tabread~ shrimp-imag_\$0;
-#X obj 91 268 s2f~ 10;
+#X obj 91 268 s2f~;
 #X connect 4 0 13 0;
 #X connect 4 0 15 0 32.................S....XN...vD....lC...TB....;
 #X connect 5 0 4 3;
