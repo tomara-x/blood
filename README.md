@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> this repo is maintained no longer
+
 ### install
 
 0. install plugdata: https://plugdata.org/download.html
